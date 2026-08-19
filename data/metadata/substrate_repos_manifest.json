@@ -1,0 +1,166 @@
+{
+  "mode": "unlocked_head",
+  "repos": [
+    {
+      "branch": "branch-3.10",
+      "head": "9eeb3e083fa27285cfc81c3867efcb7cd17e1b08",
+      "name": "bokeh",
+      "path": "data/substrate/bokeh",
+      "status": "head_synced",
+      "url": "https://github.com/bokeh/bokeh"
+    },
+    {
+      "branch": "main",
+      "head": "f13798b7f40cda285b5b8e641150091d2d82776e",
+      "name": "folium",
+      "path": "data/substrate/folium",
+      "status": "head_synced",
+      "url": "https://github.com/python-visualization/folium"
+    },
+    {
+      "branch": "main",
+      "head": "aca3093c986ee6eb3d094fce194faf887588cc6e",
+      "name": "branca",
+      "path": "data/substrate/branca",
+      "status": "head_synced",
+      "url": "https://github.com/python-visualization/branca"
+    },
+    {
+      "branch": "main",
+      "head": "a2465cf013c906ed2ec76b800db273d39a69433d",
+      "name": "holoviews",
+      "path": "data/substrate/holoviews",
+      "status": "head_synced",
+      "url": "https://github.com/holoviz/holoviews"
+    },
+    {
+      "branch": "main",
+      "head": "5039c82f6f8927cfb62fe4e150319812fb1fe63f",
+      "name": "hvplot",
+      "path": "data/substrate/hvplot",
+      "status": "head_synced",
+      "url": "https://github.com/holoviz/hvplot"
+    },
+    {
+      "branch": "main",
+      "head": "b4ddd08c045a6c4c7eb0881038907604b0983f7d",
+      "name": "panel",
+      "path": "data/substrate/panel",
+      "status": "head_synced",
+      "url": "https://github.com/holoviz/panel"
+    },
+    {
+      "branch": "main",
+      "head": "be738d9706334b8cdc89dda1404726f1c7fe6081",
+      "name": "datashader",
+      "path": "data/substrate/datashader",
+      "status": "head_synced",
+      "url": "https://github.com/holoviz/datashader"
+    },
+    {
+      "branch": "main",
+      "head": "e8c3dac6c08286381ee7e27c6d24effdfe4e4f6a",
+      "name": "pandas",
+      "path": "data/substrate/pandas",
+      "status": "head_synced",
+      "url": "https://github.com/pandas-dev/pandas"
+    },
+    {
+      "branch": "main",
+      "head": "218d2974d34bce52d38732b2fd240c0650fd60b3",
+      "name": "numpy",
+      "path": "data/substrate/numpy",
+      "status": "head_synced",
+      "url": "https://github.com/numpy/numpy"
+    },
+    {
+      "branch": "main",
+      "head": "ed9c85e50be6238b70139ee4a20eacc8a3b1f23f",
+      "name": "scipy",
+      "path": "data/substrate/scipy",
+      "status": "head_synced",
+      "url": "https://github.com/scipy/scipy"
+    },
+    {
+      "branch": "main",
+      "head": "fe78309725e02eb679c29ce24029c5576ab4bb14",
+      "name": "matplotlib",
+      "path": "data/substrate/matplotlib",
+      "status": "head_synced",
+      "url": "https://github.com/matplotlib/matplotlib"
+    },
+    {
+      "branch": "main",
+      "head": "77ec40a202620ce600b3e4971bef3b16b5ee1699",
+      "name": "xarray",
+      "path": "data/substrate/xarray",
+      "status": "head_synced",
+      "url": "https://github.com/pydata/xarray"
+    },
+    {
+      "branch": "main",
+      "head": "6733fcffeb57212a2b39c108f941c583dab3e1e2",
+      "name": "geopandas",
+      "path": "data/substrate/geopandas",
+      "status": "head_synced",
+      "url": "https://github.com/geopandas/geopandas"
+    },
+    {
+      "branch": "main",
+      "head": "77b0ec271826c3e4fa804d091122d45359902cc4",
+      "name": "shapely",
+      "path": "data/substrate/shapely",
+      "status": "head_synced",
+      "url": "https://github.com/shapely/shapely"
+    },
+    {
+      "branch": "main",
+      "head": "249bfa766ff969fd73636e473e02ce20f230352c",
+      "name": "pyproj",
+      "path": "data/substrate/pyproj",
+      "status": "head_synced",
+      "url": "https://github.com/pyproj4/pyproj"
+    },
+    {
+      "branch": "main",
+      "head": "4e5bce88ea3c84b41a394244fe1cad6a5b8eb854",
+      "name": "rasterio",
+      "path": "data/substrate/rasterio",
+      "status": "head_synced",
+      "url": "https://github.com/rasterio/rasterio"
+    },
+    {
+      "branch": "main",
+      "head": "2a91b775728f9cc3ee2e2680bbcd72bf02953381",
+      "name": "plotly_py",
+      "path": "data/substrate/plotly_py",
+      "status": "head_synced",
+      "url": "https://github.com/plotly/plotly.py"
+    },
+    {
+      "branch": "main",
+      "head": "d6a36523d85064aa5150052efb5b505c896f1005",
+      "name": "scikit_learn",
+      "path": "data/substrate/scikit_learn",
+      "status": "head_synced",
+      "url": "https://github.com/scikit-learn/scikit-learn"
+    },
+    {
+      "branch": "main",
+      "head": "b5a94e2790f54ac788b198a517ea4ca95e545c51",
+      "name": "statsmodels",
+      "path": "data/substrate/statsmodels",
+      "status": "head_synced",
+      "url": "https://github.com/statsmodels/statsmodels"
+    },
+    {
+      "branch": "main",
+      "head": "4ba50db2d08c828f1cfcb06394b895aac8bfeecf",
+      "name": "networkx",
+      "path": "data/substrate/networkx",
+      "status": "head_synced",
+      "url": "https://github.com/networkx/networkx"
+    }
+  ],
+  "substrate_root": "data/substrate"
+}

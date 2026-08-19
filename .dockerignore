@@ -1,0 +1,25 @@
+.git
+.venv
+__pycache__
+*.pyc
+*.log
+*.out
+.DS_Store
+
+# Local caches and heavyweight assets stay on the host.
+hf/
+models/
+logs/
+*.safetensors
+gpucore.*
+
+# The image rebuilds substrate from the locked manifest.
+data/substrate/
+data/input/raw/
+data/input/geo/
+data/eval/
+
+# Run artifacts are written through the make-run output mount.
+experiments/hf_long_context/runs/
+artifacts/
+

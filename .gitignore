@@ -1,0 +1,27 @@
+__pycache__/
+*.pyc
+*.log
+*.out
+.DS_Store
+.venv/
+.venvs/
+
+# Substrate corpus is large and regenerable from data/metadata (do not commit;
+# it also contains embedded upstream git repos).
+data/substrate/*
+data/metadata/*
+!data/metadata/*.json
+
+# Model weight files (large binaries).
+*.safetensors
+
+# Benchmark run outputs are local-only and regenerable.
+experiments/hf_long_context/runs/
+
+# Cluster job scripts live inside the worktree but describe one specific
+# internal cluster: node names, QOS and account names, NFS paths, and the
+# credentials needed to pull gated weights. Untracked is not enough, because a
+# single `git add -A` while preparing a release would publish all of it.
+slurm/
+
+gpucore.*

@@ -1,0 +1,38 @@
+long-context-serving
+Copyright 2026 Advanced Micro Devices, Inc.
+
+This product includes software developed at Advanced Micro Devices, Inc.
+
+Licensed under the Apache License, Version 2.0 (see the LICENSE file).
+
+================================================================================
+Third-party components
+================================================================================
+
+This repository contains and/or builds upon third-party software. The
+following notices are provided for attribution as required by the respective
+licenses. Each component remains under its own license.
+
+--------------------------------------------------------------------------------
+vLLM
+--------------------------------------------------------------------------------
+This repository builds upon the vLLM project, redistributed under the Apache
+License, Version 2.0. The Docker image uses the vLLM-ROCm base image unmodified;
+no vLLM source files are vendored or patched in this repository.
+
+  Project: vLLM (https://github.com/vllm-project/vllm)
+  License: Apache License, Version 2.0
+  Base image: vllm/vllm-openai-rocm:v0.25.1
+
+--------------------------------------------------------------------------------
+AITER (ROCm)
+--------------------------------------------------------------------------------
+The Docker image installs AMD ROCm's AITER project from an upstream commit. No
+AITER kernel objects or source files are patched or vendored in this
+repository; AITER is installed as-is from the ref below.
+
+  Project: AITER (https://github.com/ROCm/aiter)
+  Source ref (release tag): v0.1.19.post2
+  Resolved commit: a63ede724b153564f3ed3fc538055fd15178c77d
+
+AITER and its kernels remain subject to their upstream license terms.

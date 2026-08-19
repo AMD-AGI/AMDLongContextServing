@@ -1,0 +1,54 @@
+# Copyright Advanced Micro Devices, Inc.
+#
+# SPDX-License-Identifier: Apache-2.0
+
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "long-context-serving"
+version = "0.1.0"
+description = "Kimi-Linear long-context FP8 benchmark tooling for vLLM v0.25.1 + AITER v0.1.19.post2 on AMD MI355X."
+readme = "README.md"
+requires-python = ">=3.10"
+
+[tool.setuptools]
+package-dir = {"" = "app"}
+
+[tool.setuptools.packages.find]
+where = ["app"]
+include = ["long_context_serving*"]
+
+[tool.pylint.main]
+py-version = "3.12"
+jobs = 0
+load-plugins = ["pylint.extensions.docparams"]
+ignore-paths = [
+  "^\\.venvs/.*$",
+  "^venvs/.*$",
+  "^experiments/.*/runs/.*$",
+  "^data/.*$",
+]
+
+[tool.pylint."messages control"]
+disable = [
+  "duplicate-code",
+  "fixme",
+  "import-error",
+  "locally-disabled",
+  "too-few-public-methods",
+]
+enable = [
+  "useless-suppression",
+]
+
+[tool.pylint.parameter_documentation]
+accept-no-param-doc = false
+accept-no-return-doc = false
+accept-no-yields-doc = false
+accept-no-raise-doc = true
+default-docstring-type = "google"
+
+[tool.pylint.format]
+max-line-length = 88
